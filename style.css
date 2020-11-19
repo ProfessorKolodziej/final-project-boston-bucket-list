@@ -1,0 +1,92 @@
+/* CSS files add styling rules to your content */
+
+.top {
+	display: block;
+	height: 80px;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: #f8f9eb;
+	font-family: raleway light;
+	color: #052a3d;
+	font-size: 26px;
+  text-align: center;
+  padding: 10px 0;
+}
+
+.dropbtn {
+  background-color: #f8f9eb;
+  color: #052a3d;
+  padding: 10px;
+  font-size: 10px;
+  border: none;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+  float:right;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f8f9eb;
+  font-family: raleway light;
+  font-size:10px;
+  min-width: 50px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: #ddd;}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {display: block;}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {background-color: pink;}
+
+.bgcolor {
+	background-color: #f8f9eb;
+	margin-top: 1px;
+  padding: 5px 0;
+	color: #052a3d;
+}
+
+.title1{
+  font-family: raleway light;
+	color: #052a3d;
+	font-size: 30px;
+  margin-left: 3%;
+  margin-top: 60px;
+  text-align:center;
+}
+
+
+.pic1{
+  width:50%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border: 3px solid #052a3d;
+}
+
+.pic{
+  text-align:center;
+  margin-top:0px;
+  border-style: solid;
+  border-color: #052a3d;
+  font-familt:raleway;
+  font-size:20px;
+  border-width:3px;
+}
+
+.bottom{
+	display: block;
+	height: 80px;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: #f8f9eb;
+  padding: 20px;
+}
