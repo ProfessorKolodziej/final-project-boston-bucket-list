@@ -10,33 +10,114 @@
 	margin-left: auto;
 	margin-right: auto;
 	background-color: #052a3d;
-	text-align: center;
-	font-family: raleway, sans-serif;
+	font-family: raleway light, sans-serif;
 	color: #f8f9eb;
-	font-size: 30px;
+	font-size: 26px;
+	text-align: center;
+	padding: 10px 0;
 }
+
+/* I got this dropdown model from W3school and made some adjustment =) */
+
+.dropbtn {
+	background-color: #f8f9eb;
+	color: #052a3d;
+	padding: 10px;
+	font-size: 10px;
+	border: none;
+}
+
+.dropdown {
+	float: right;
+}
+
+.dropdown-content {
+	display: none;
+	position: absolute;
+	background-color: #052a3d;
+	font-family: raleway light, sans-serif;
+	min-width: 50px;
+	box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+	z-index: 1;
+}
+
+.dropdown-content a {
+	color: #f8f9eb;
+	padding: 10px 10px;
+	text-decoration: none;
+	font-size: 18px;
+	font-family: raleway light, sans-serif;
+	display: block;
+}
+
+.dropdown-content a:hover { background-color: #052a3d; }
+
+.dropdown:hover .dropdown-content { display: block; }
+
+.dropdown:hover .dropbtn { background-color: pink; }
+
+/* I got above dropdown model from W3school and made some adjustment =) */
 
 .bgcolor {
 	background-color: #052a3d;
 	margin-top: 1px;
+	padding: 5px 0;
 	color: #f8f9eb;
 }
 
 .title1 {
-	font-family: raleway light, sans-serif;
-	font-size: 80px;
-	text-align: center;
+	font-family: raleway, sans-serif;
+	color: #f8f9eb;
+	font-size: 60px;
+	margin-left: 3%;
+	margin-top: 20px;
 }
 
 .guide {
 	font-family: raleway light, sans-serif;
 	font-size: 20px;
-	color: white;
+	color:#f8f9eb;
 	text-align: center;
 }
 
-.image1 {
-	width: 80%;
-	left: auto;
-	right: auto;
+.box1{
+	border-radius: 0px;
+	background-size: cover;
+	background: url("https://www.bostonmagazine.com/wp-content/uploads/sites/2/2019/10/Greenway-NorthEnd-main.jpg");
+	background-position: center center;
+	margin-left: 0;
+	background-repeat: no-repeat;
+	width: 100%;
+	padding: 40px;
+	display: block;
 }
+
+.minibox1{
+	background-color:#052a3d;
+	width:70%;
+	display:block;
+	margin-left:auto;
+	margin-right:auto;
+  }
+
+  .spot1{
+	font-family: raleway;
+	  font-size: 20px;
+	  color: #f8f9eb;
+	  text-align: center;
+	max-width: 250px;
+  }
+  .detail1{
+	font-family: raleway;
+	  font-size: 16px;
+	  color: #f8f9eb;
+	  text-align: center;
+	max-width: 200px;
+  }
+  
+  .intro1{
+	font-family: raleway;
+	  font-size: 30px;
+	  color: #f8f9eb;
+	  text-align: left;
+  }
