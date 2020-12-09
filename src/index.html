@@ -1,45 +1,51 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-	<title>Travel with Your Friends</title>
-	<link href="/Users/yang/final-project-boston-bucket-list/src/css/_layout.scss" rel="stylesheet" type="text/css">
-</head>
-<body>
-		<div class="top">
-			<h3 class="title"> My Boston Bucket List
-			</h3>
-			<div class="dropdown">
-				<button class="dropdown">Menu</button>
-				<div class="dropdown-content">
-					<a href="#">Home</a>
-					<a href="#">About</a>
-					<a href="#">Project Overview</a>
-				</div>
-				</div>
+  <head>
+    	<title>My Boston Bucket List </title>
+
+  <link rel="shortcut icon" type="image/jpg" href="https://cdn.glitch.com/fafec2a2-6ff1-4d37-8b49-e9251fc6cb6c%2Flogo.png?v=1607461596465"/>
+    	<div class="top">
+        <h1> <a href="index.html">My Boston Bucket List</a></h1>      
+    <hr/>
+
+        
+<div class="dropdown">
+  <button onclick="myFunction()" class="dropbtn"><img class="menu-button" src="https://cdn.glitch.com/fafec2a2-6ff1-4d37-8b49-e9251fc6cb6c%2Fhamburger.png?v=1607211525231"></button>
+  <div id="myDropdown" class="dropdown-content">
+    <a class="dropwords" href="index.html">Home</a>
+    <a class="dropwords" href="about.html">About</a>
+    <a class="dropwords" href="project-overview.html">Project Overview</a>
+  </div>
+</div>
 		  </div>
-		  
-		  <section class="bgcolor">
-	  <div>
-			<h1 class="title1">Travel with Friends</h1>
-			<p class="guide">Check off the list when you finish an item!</p>
-		  </div>
-		 
-	  <article class="box1">
-		  <div class="minibox1">
-				  <form action= "">
-					  <fieldset>
-						  <input type = "checkbox"
-						  class = "chkspot1"
-						  value = "rkg" />
-						  <label for = "chkspot1">Rose Kennedy Greenway</label>
-					  </fieldset>
-				  </form>
-				  <p class="detail1">Surrounded by so many food, markets and views, the Greenway is beyond worthy.</p>
-		  </div>
-		  <p class="intro1">GET TO KNOW BOSTON  
-			starting from
-			ROSE KENNEDY GREENWAY</p>
-		</article>
-</section>
-</body>
+  <link rel="stylesheet" href="/style.css">    
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@100;300;700&display=swap"
+      rel="stylesheet"/>
+  </head>
+  
+  <body>
+    <div class="homepage-question">  
+    <img src="https://cdn.glitch.com/fafec2a2-6ff1-4d37-8b49-e9251fc6cb6c%2Fboston-skyline-bridge-blue_skyline_fixed_color.png?v=1607441829645" alt="Image trace of the Boston skyline" />
+    <h2 class="question">
+      Your personalized bucket list <br />
+      of things to do in and around Boston.
+    </h2>
+    </div>
+
+    <div class="select-answer">
+      <!--source: https://www.w3schools.com/tags/tag_select.asp-->
+      
+      <label>Pick who you're bringing with you on your next adventure:</label>
+      <div class="pages">
+        <input class="home-button" type = "button" value ="Friends" onclick = "Redirect1();"/>
+         <input class="home-button" type = "button" value ="Family" onclick = "Redirect2();"/>
+         <input class="home-button" type = "button" value ="Significant other" onclick = "Redirect3();"/>
+         <input class="home-button" type = "button" value ="No one, I'm riding solo!" onclick = "Redirect4();"/>
+    </div>
+       </div>
+    
+    <hr/>
+  
+  </body>
 </html>
