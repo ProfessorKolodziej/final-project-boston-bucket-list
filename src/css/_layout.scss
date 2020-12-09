@@ -76,14 +76,14 @@
 .guide {
 	font-family: raleway light, sans-serif;
 	font-size: 20px;
-	color:#f8f9eb;
+	color: #f8f9eb;
 	text-align: center;
 }
 
-.box1{
-	border-radius: 0px;
-	background-size: cover;
+.box1 {
+	border-radius: 0;
 	background: url("https://www.bostonmagazine.com/wp-content/uploads/sites/2/2019/10/Greenway-NorthEnd-main.jpg");
+	background-size: cover;
 	background-position: center center;
 	margin-left: 0;
 	background-repeat: no-repeat;
@@ -92,32 +92,100 @@
 	display: block;
 }
 
-.minibox1{
-	background-color:#052a3d;
-	width:70%;
-	display:block;
-	margin-left:auto;
-	margin-right:auto;
-  }
+.minibox1 {
+	background-color: #052a3d;
+	width: 70%;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
 
-  .spot1{
-	font-family: raleway;
-	  font-size: 20px;
-	  color: #f8f9eb;
-	  text-align: center;
+.spot1 {
+	font-family: raleway, sans-serif;
+	font-size: 20px;
+	color: #f8f9eb;
+	text-align: center;
 	max-width: 250px;
-  }
-  .detail1{
-	font-family: raleway;
-	  font-size: 16px;
-	  color: #f8f9eb;
-	  text-align: center;
+}
+
+.detail1 {
+	font-family: raleway, sans-serif;
+	font-size: 16px;
+	color: #f8f9eb;
+	text-align: center;
 	max-width: 200px;
-  }
-  
-  .intro1{
-	font-family: raleway;
-	  font-size: 30px;
-	  color: #f8f9eb;
-	  text-align: left;
-  }
+}
+
+.intro1 {
+	font-family: raleway, sans-serif;
+	font-size: 30px;
+	color: #f8f9eb;
+	text-align: left;
+}
+
+.box2 {
+	border-radius: 0;
+	background: url("https://thedailycatch.com/wp-content/uploads/2019/12/Slide-1.jpg");
+	background-size: cover;
+	background-position: center center;
+	margin-left: 0;
+	background-repeat: no-repeat;
+	width: 100%;
+	padding: 40px;
+	display: block;
+	opacity: 0;
+	height: 0;
+	overflow: hidden;
+	transition: all 0.3s ease-in;
+}
+
+.minibox2 {
+	background-color: #052a3d;
+	width: 70%;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.spot2 {
+	font-family: raleway, sans-serif;
+	font-size: 20px;
+	color: #f8f9eb;
+	text-align: center;
+	max-width: 250px;
+}
+
+.detail2 {
+	font-family: raleway, sans-serif;
+	font-size: 16px;
+	color: #f8f9eb;
+	text-align: center;
+	max-width: 200px;
+}
+
+.intro2 {
+	font-family: raleway, sans-serif;
+	font-size: 30px;
+	color: #f8f9eb;
+	text-align: left;
+}
+
+.end1 {
+	font-family: raleway light, sans-serif;
+	font-size: 15px;
+	color: #f8f9eb;
+	text-align: left;
+}
+
+.end2 {
+	font-family: rale light, sans-serif;
+	font-size: 15px;
+	color: #f8f9eb;
+	text-align: left;
+}
+
+.box2-show {
+	opacity: 1;
+	height: 50%;
+	transition: all 0.3s ease-in;
+}
