@@ -3,7 +3,7 @@ function myFunction() {
   document.getElementById('myDropdown').classList.toggle('show');
 }
 document.querySelector('#hamburger').addEventListener('click', myFunction);
-window.onclick = function (event) {
+window.onclick = (event) => {
   if (!event.target.matches('.dropbtn')) {
     const dropdowns = document.getElementsByClassName('dropdown-content');
     let i;
